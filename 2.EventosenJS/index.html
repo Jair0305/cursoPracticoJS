@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Manipulacion bascia del DOM</title>
+</head>
+<body>
+    <h1>Manipulacion basica del DOM</h1>
+
+    <input placeholder="Escribe algo aqui" id="calculo1">
+    <!-- en change ejecuta codigo JS cuando cambia el contenido de algun input y onclick ejecuta codigoJS cuandos e hace click en algun boton para poder ejecutar una funcion de js, en el atributo se le debe dar el nombre de la funcion del arvchivo js-->
+    <!-- Para que el codigo html quede mas limpio, existe la funcion addeventlistener, para hacerlo todo desde js -->
+    <input onchange="" placeholder="Escribe algo aqui" id="calculo2">
+    <button id="btnCalcular" onclick="btnOnClick()" >Calcular</button>
+
+    <p id="result"></p>
+
+    <script src="./js/index.js"></script>
+</body>
+</html>
+
+
